@@ -7,6 +7,10 @@ A simple, polling-based Python automated trading script for Samsung Electronics 
 - Under assumption that trading volume signifies liquidity of asset, this model attempts to buy(sell) stock when trading volume increases(decreases).
 - The model buys stock 1,000KRW less than current market price, only when trading volume today(converted to 7:30 hours) is higher than that of yesterday.
 - The model sells stock 1,000KRW above current market price, only when trading volume today(converted to 7:30 hours) is lower than that of yesterday.
+
+## Example
+<img width="985" height="796" alt="Image" src="https://github.com/user-attachments/assets/7ca7ebc1-f202-4594-a321-e3e30782fe07" />
+
 ## Features
 - **Strict Rate Limiting:** Designed to poll conservatively (every 15s) and enforce delays between HTTP requests to avoid KIS API bans.
 - **Token Caching:** Automatically caches OAuth tokens locally to ensure same-day reuse.
