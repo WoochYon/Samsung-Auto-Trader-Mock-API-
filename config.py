@@ -17,7 +17,7 @@ BASE_URL = "https://openapivts.koreainvestment.com:29443"
 # --- Trading Parameters ---
 SYMBOL = "005930"  # Samsung Electronics
 ORDER_QTY = 1      # Quantity to buy/sell per cycle
-ORDER_PRICE_SPREAD = 500 #2000  # Spread for buy/sell orders (KRW)
+ORDER_PRICE_SPREAD = 1000 #2000  # Spread for buy/sell orders (KRW)
 POLL_INTERVAL_SEC = 15     # Conservative polling interval to avoid rate limits
 
 # --- Endpoints & TR_IDs (Mock Trading) ---
